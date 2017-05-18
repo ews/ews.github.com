@@ -5,11 +5,10 @@
 #+OPTIONS: toc:nil
 
 * Internationalization
- #+BEGIN_NOTES
-+REVEAL_ROOT: file:///home/ews/Dropbox/notes/talks/reveal/
+#+BEGIN_NOTES
  presentation, why am I here? who I really am?
    Enter speaker notes here.
- #+END_NOTES
+#+END_NOTES
 **  
 Juan Pablo
 #+ATTR_REVEAL: :frag highlight-red
