@@ -6,8 +6,7 @@
 
 * Internationalization
  #+BEGIN_NOTES
-
-#+REVEAL_ROOT: file:///home/ews/Dropbox/notes/talks/reveal/
++REVEAL_ROOT: file:///home/ews/Dropbox/notes/talks/reveal/
  presentation, why am I here? who I really am?
    Enter speaker notes here.
  #+END_NOTES
@@ -108,11 +107,11 @@ intro: Internet came with a promise
 Indonedia
 #+END_NOTES
 ** http://www.smartinsights.com/wp-content/uploads/2016/07/Zalando-growth-European-countries-700x395.png
-** http:///home/ews/notes/talks/lamoda.png
+** https://ews.github.io/lamoda.png
 #+BEGIN_NOTES
 Lamoda: Russia and Kazhagstan 
 #+END_NOTES
-** http:///home/ews/notes/talks/jabong.png
+** https://ews.github.io/jabong.png
 #+BEGIN_NOTES
 India 
 #+END_NOTES
