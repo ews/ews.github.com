@@ -1,5 +1,4 @@
-
-#+REVEAL_ROOT: ./reveal/
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: (notes)
 #+OPTIONS: num:nil
@@ -8,7 +7,7 @@
 * Internationalization
  #+BEGIN_NOTES
 
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: file:///home/ews/Dropbox/notes/talks/reveal/
  presentation, why am I here? who I really am?
    Enter speaker notes here.
  #+END_NOTES
@@ -44,7 +43,7 @@ la idea es que el idioma que hablamos define el modo en que vemos e initeractuam
   #+END_NOTES
 ** TODO Superman in Arabic 
 ** TODO Washing machine in arabic 
-** file:///home/ews/notes/talks/leah_boroditsky.png
+** https://ews.github.io/leah_boroditsky.png
 ** https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png
 ** Pormpuraaw, AU
 ** https://c.photoshelter.com/img-get/I0000vYyTAvcJ5hA/s/800/640/DX22464-1-Pormpuraaw-Dancers.jpg
@@ -116,8 +115,8 @@ Lamoda: Russia and Kazhagstan
 India 
 #+END_NOTES
 ** Etsy Clones 
-** file:///home/ews/notes/talks/dawanda.png
-** http://webrazzi.com/wp-content/uploads/2012/04/eleseri.jpg Eleseri.com 
+** https://ews.github.io/dawanda.png
+** http://webrazzi.com/wp-content/uploads/2012/04/eleseri.jpg 
 ** https://res.cloudinary.com/crunchbase-production/image/upload/v1397185281/6ed922a67827b87a6d18cc7d4ec7f4b9.png (Airu.com) 
 #+BEGIN_NOTES
 They focus on particular companies for particular markets (zappos clone in Germany, not in the UK or new zealand) 
