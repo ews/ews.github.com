@@ -1,11 +1,13 @@
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT_: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: https://ews.github.io/reveal 
 #+OPTIONS: reveal_title_slide:nil
-#+REVEAL_PLUGINS: (notes)
+#+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil
 #+OPTIONS: toc:nil
 
 * Internationalization
 #+BEGIN_NOTES
++REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
  presentation, why am I here? who I really am?
    Enter speaker notes here.
 #+END_NOTES
@@ -29,13 +31,6 @@ Y porque estoy contando ese rollo
 #+END_NOTES
 ** https://ews.github.io/yelp.png
 * how we see the world is dependent on language we speak 
-  #+BEGIN_NOTES
-Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
-no tanto por el vocabulario, sino por las estructuras mentales que requerimos
-la idea es que el idioma que hablamos define el modo en que vemos e initeractuamos 
- Linguistic relativity 
- Sapir–Whorf hypothesis,
-  #+END_NOTES
 ** https://ews.github.io/superman_arabic_1.png
 ** https://ews.github.io/superman_arabic_2.png
 #+BEGIN_NOTES
@@ -43,28 +38,48 @@ Contar que una de las primeras cosas que note cuandoinafui a paises arabes es qu
 Problemas medicos (inhaladores) 
 #+END_NOTES
 ** https://ews.github.io/leah_boroditsky.png
-** https://ews.github.io/leah_boroditsky.png
 ** https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png
+  #+BEGIN_NOTES
+Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
+no tanto por el vocabulario, sino por las estructuras mentales que requerimos
+la idea es que el idioma que hablamos define el modo en que vemos e initeractuamos 
+ Linguistic relativity 
+ Sapir–Whorf hypothesis,
+  #+END_NOTES
 ** Pormpuraaw, AU
-** https://c.photoshelter.com/img-get/I0000vYyTAvcJ5hA/s/800/640/DX22464-1-Pormpuraaw-Dancers.jpg
+ https://c.photoshelter.com/img-get/I0000vYyTAvcJ5hA/s/800/640/DX22464-1-Pormpuraaw-Dancers.jpg
 #+BEGIN_NOTES
-Language: Kuuk Thaayorre, time flows East to West
+Language: Kuuk Thaayorre, 
+1. no tienen derecha o izquierda, delante o detras
+explicar meterlos habitacion cerrada
+2. time flows East to West
 Kuuk Thaayorre speakers put a sequential series of cards in order—one which showed a man aging, another of a crocodile growing, and of a person eating a banana. The speakers were sat at tables during the experiment, once facing south, and another time facing north. Regardless of which direction they were facing, all speakers arranged the cards in order from east to west—the same direction the sun’s path takes through the sky as the day passes. By contrast, English speakers doing the same experiment always arranged the cards from left to right—the direction in which we read.
 
 For the Kuuk Thaayorre speakers, the passage of time was intimately tied to the cardinal directions. “We never told anyone which direction they were facing,” wrote Boroditsky. “The Kuuk Thaayorre knew that already and spontaneously used this spatial orientation to construct their representations of time.”
 #+END_NOTES
 ** Pinranha
+http://www.newyorker.com/wp-content/uploads/2007/04/070416_r16101a_p646.jpg
 #+BEGIN_NOTES
+Descubiertos en los 80 por Dan Everett, de UC Berkeley
+
+Dos caracteristicas: No numeros y tienes que dar evidencia de como sabes de lo que hablas a traves de particulas
+
+
 Piranha: a language without numbers, and where you need to provide evidence of what you talk about: no religion 
 Piranha no colors, number two (only one, few, many) 
 Same method for providing evidence in In Nuevo San Juan, Peru, the Matses people 
-
 #+END_NOTES
+** Arrival 
+https://fsmedia.imgix.net/10/d7/3b/a3/65fa/442c/a952/80f9cb6ca435/arrival-language-2jpeg.jpeg
 #+BEGIN_NOTES
 Esto es importante porque tenemos resistencia a los servicios que no reconocemos como locales, ceranos a nosotros
 Ole/Yahoo, Tuenti/Facebook 
+
+y no deberia ser asi, internet vino con una promesa: 
+
+Y esa ha sido mi obsesion durante toda la carrera profesional 
 #+END_NOTES
-* Un poco de informacion sobre mi
+* bio
 #+BEGIN_NOTES
 and my bio, and why am I talking to you about internationalization 
 #+END_NOTES
