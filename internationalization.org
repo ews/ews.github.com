@@ -26,13 +26,10 @@ https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/486px-Fl
 ** Puerta Juan 
 ** Juan Puertadovsky 
 ** Juan Puertasson
-** TODO : sign in in international 
 #+BEGIN_NOTES
-Porque si salis de aqui con una idea sola, quiero que sea esta: internacionalizacion es un femonemo cultural
-que habla a lo mas profundo que tenemos: la identidad 
-y que solo se puede hacer bien si nos alineamos con la identidad del usuario
-porque es esto tan importante? 
+Y porque estoy contando ese rollo 
 #+END_NOTES
+** https://ews.github.io/yelp.png
 * how we see the world is dependent on language we speak 
   #+BEGIN_NOTES
 Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
@@ -41,8 +38,13 @@ la idea es que el idioma que hablamos define el modo en que vemos e initeractuam
  Linguistic relativity 
  Sapir–Whorf hypothesis,
   #+END_NOTES
-** TODO Superman in Arabic 
-** TODO Washing machine in arabic 
+** https://ews.github.io/superman_arabic_1.png
+** https://ews.github.io/superman_arabic_2.png
+#+BEGIN_NOTES
+Contar que una de las primeras cosas que note cuandoinafui a paises arabes es que las instrucciones aparecen contrario (washing machine) 
+Problemas medicos (inhaladores) 
+#+END_NOTES
+** https://ews.github.io/leah_boroditsky.png
 ** https://ews.github.io/leah_boroditsky.png
 ** https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png
 ** Pormpuraaw, AU
@@ -244,7 +246,7 @@ Slow the connection down at the office if needed
 #+BEGIN_NOTES
 wahtsapp 
 #+END_NOTES
-** TODO facebook/google putting access
+** facebook/google putting access
 #+BEGIN_NOTES
 put pictures here
 #+END_NOTES
@@ -288,7 +290,7 @@ http://www.brandemia.org/el-curioso-proceso-de-traducir-marcas-al-chino  (*tons*
 *** connectivity
 *** mpesa (
 *** facebook 
-* TODO Case: Etsy Japan 
+* Case: Etsy Japan 
 :PROPERTIES:
    :reveal_background: #123456
    :END:
@@ -326,7 +328,7 @@ Softbank
 Common law: Anglosaxon countries: can create jurisprudencia y precedente 
 #+END_NOTES
 * marketing / i18n 
-** TODO mcdonalds 
+** mcdonalds 
 #+BEGIN_NOTES
 Icons: UN site
 
