@@ -1,5 +1,5 @@
 
-#+REVEAL_ROOT: file:///home/ews/Dropbox/notes/talks/reveal/
+#+REVEAL_ROOT: ./reveal/
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: (notes)
 #+OPTIONS: num:nil
