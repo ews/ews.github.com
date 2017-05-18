@@ -1,0 +1,31 @@
+
+* -----------------------
+* Reveal.js support
+To enable the export of your org file as a [[http://lab.hakim.se/reveal-js/][reveal.js]] presentation, set the
+variable =org-enable-reveal-js-support= to =t=. This will install the [[https://github.com/yjwen/org-reveal/][org-reveal]]
+extension.
+
+#+BEGIN_SRC emacs-lisp
+  (setq-default dotspacemacs-configuration-layers
+   '((org :variables org-enable-reveal-js-support t)))
+#+END_SRC
+
+In order to be able to use org-reveal, download =reveal.js= from its
+[[http://lab.hakim.se/reveal-js/#/][homepage]] and set =org-reveal-js= to the
+download path, as described in the [[https://github.com/yjwen/org-reveal#obtain-revealjs][manual]]. Alternatively, add the following line
+to each =.org= file you want to process:
+
+#+BEGIN_EXAMPLE
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+END_EXAMPLE
+
+* notas
+
+good presentation http://jr0cket.co.uk/slides/revealjs.html
+
+#+NOTE: see instructions http://beatpanic.berlin/how-to-render-slides-from-spacemacs-org-mode-to-reveal-js.html and here https://github.com/yjwen/org-reveal
+#+NOTE export this with load-library ox-reveal and C-c C-e R B
+
+make notes with <n and tab 
+separar en varias slides
+_#+REVEAL: split
