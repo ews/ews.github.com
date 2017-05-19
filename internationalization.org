@@ -29,7 +29,7 @@ https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/486px-Fl
 Y porque estoy contando ese rollo 
 #+END_NOTES
 ** https://ews.github.io/yelp.png
-* how we see the world is dependent on language we speak 
+* Nothing defines us as much as the language we speak 
 ** https://ews.github.io/superman_arabic_1.png
 ** https://ews.github.io/superman_arabic_2.png
 #+BEGIN_NOTES
@@ -89,8 +89,7 @@ and my bio, and why am I talking to you about internationalization
    :reveal_background: #123456
    :END:
 ** SoundCloud
-* Internationalization 
-** what is internationalization ?  
+* What is Internationalization 
  #+BEGIN_NOTES
  Ask what is internationalization ? 
  For me it's related to innovation, and I want to talk about that 
@@ -140,13 +139,15 @@ the companies are really short lived :
 - they take over the market 
 they are the worst in strategy and new product development, but probably the best in execution, the can generate a who new company within weeks 
 #+END_NOTES
-** Cultural advantange 
+** Rocket Internet
+Innovation on delivery, not inception 
 #+BEGIN_NOTES
+Rocket tarda dos semanas en crear una empresa, y mucho menos en destrozarla si no funciona
 Esto pasa porque muchas empresas americanas tardan en salir
 ademas tienen problemas culturales en internacional, lo cual va en dos sentidos 
 Hablar de la empresa esa alemana que queria ir a SV 
 #+END_NOTES
-* 1. how to plan an internationalization launch 
+* how to plan an internationalization launch 
 ** steps to adapt a product beyond our borders
 *** i18n = g13n + l10n 
 #+BEGIN_NOTES
@@ -175,7 +176,20 @@ domain names: puede que no importante ya, dominios que no rulan otros paises (cr
 *** https://ews.github.io/facebook_translations.png
 *** https://ews.github.io/twitter_translations.png
 *** regional adaptation 
-** Howto an
+#+BEGIN_NOTES
+Un caso concreto: RtL
+Aunque hay muchos, dispositivos con necesidades especiales (soundcloud lower bit rate in south east asia) 
+#+END_NOTES
+*** Hebrew (RtL) 
+:PROPERTIES:
+:reveal_background: https://ews.github.io/wikipedia_hebrew.png
+:reveal_background_trans: slide
+:END:
+*** Italian
+:PROPERTIES:
+:reveal_background: https://ews.github.io/wikipedia_italian.png
+:reveal_background_trans: slide
+:END:
 *** changing language 
  #+BEGIN_NOTES
  Icon for language
@@ -188,15 +202,18 @@ https://i.ytimg.com/vi/ptlt0Ba_EaI/maxresdefault.jpg
 *** unicode homoplyphs for the web 
 #+BEGIN_NOTES
 Explicar punycode, que es 
+Parar y hacer ejemplo
 Firefox: apple attack (bookmarks) 
 Explicar apple y craigslist mysql attack 
+Y con esto SE PARA DE HABLAR DE PRODUCTO
 #+END_NOTES
-** globalization 
+** key countries 
  #+BEGIN_NOTES
+vamos a hablar de algo MAS QUE DE PRODUCTO
  Which couuntries should we focus on 
  Where should we put our energies? 
+LOCALIZATION: AMAZON (country at a time) vs FACEBOOK (all same time) 
  #+END_NOTES
-** key countries 
 *** first country as a test
 *** SoundCloud: Brazil 
 #+BEGIN_NOTES
@@ -206,9 +223,15 @@ From product:
 - Internet population higher in the world (top 5) 
 - Internet penetration really low (about 30%) at the times
 #+END_NOTES
-*** Internet users https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.svg/1280px-InternetUsersWorldMap.svg.png
-*** Internet penetration https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png
-*** English Fluency Index https://upload.wikimedia.org/wikipedia/commons/8/8c/EF_EPI_2016_World_map.jpg
+*** Internet users 
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.svg/1280px-InternetUsersWorldMap.svg.png
+*** Internet penetration 
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png
+*** English Fluency Index 
+:PROPERTIES:
+:reveal_background: https://upload.wikimedia.org/wikipedia/commons/8/8c/EF_EPI_2016_World_map.jpg
+:reveal_background_trans: slide
+:END:
 #+BEGIN_NOTES
 https://en.wikipedia.org/wiki/EF_English_Proficiency_Index
 
@@ -231,16 +254,16 @@ Brazil: number 40 , 20% population speak some English, 8% fluent or proficient, 
 
 This is why the battle is ran here, orkut, etc
 #+END_NOTES
-* 2. integrating i18n into a startup 
+* integrating i18n into a running product / startup
 #+BEGIN_NOTES
 Como lo hacemos si la empresa tiene ya un producto existente que tiene que localizar 
 #+END_NOTES
-*** international is always seen as a tax 
-*** The path of least resistance
- #+BEGIN_NOTES
- Talk about Etsy, planning was difficult, Soundcloud took few weeks
- At the end, internaitonaliztion
- #+END_NOTES
+**** international is always seen as a tax 
+**** The path of least resistance
+  #+BEGIN_NOTES
+  Talk about Etsy, planning was difficult, Soundcloud took few weeks
+  At the end, internaitonaliztion
+  #+END_NOTES
 ** start with people, start with a culture
 #+BEGIN_NOTES
 Like many things, el exito depende de la cultura que tengamos en la empresa 
@@ -249,18 +272,27 @@ BAd: Wechat can't go outside china
 Good: SoundCloud Android app 
 #+END_NOTES
 ** functions of the intl team: 
-*** provide infrastructure to rest of company 
-**** creating tools / integrating APIs 
-**** launching new languages for all features / sections
-**** launching a new feature / section for all supported languages
-*** provide intelligence to the rest of the commpany
-**** legal framework, potential liabilities 
-*** veto power over localization issues 
+#+BEGIN_NOTES
+***** creating tools / integrating APIs 
+***** launching new languages for all features / sections
+***** launching a new feature / section for all supported languages
+legal : 
+*** legal framework, potential liabilities 
+veto: 
 **** when something won't sound ok, or when major changes are needed
-*** keep the different languages in sync (if needed) 
-*** tools to improve communication
+mejorar comunicacion: hablar de mad libs Etsy Japan
+#+END_NOTES
+
+**** provide infrastructure to rest of company 
+**** provide intelligence to the rest of the commpany
+**** veto power over localization issues 
+**** keep the different languages in sync (if needed) 
+**** tools to improve communication with users
 ** Set a plan and KPIs
 ** Make a fake translation 
+#+BEGIN_NOTES
+Malkovich
+#+END_NOTES
 ** Select a country, prove a point 
 #+BEGIN_NOTES
 Understand the country (go there and talk to users)
@@ -273,20 +305,30 @@ Slow the connection down at the office if needed
 #+BEGIN_NOTES
 wahtsapp 
 #+END_NOTES
-** facebook/google putting access
+** when you need international to growth  
+https://ews.github.io/internet.org.png
 #+BEGIN_NOTES
 put pictures here
 #+END_NOTES
 
 when you literally need deeloping countries to growth
 
-* important regions 
+* Couple of key regions 
 #+BEGIN_NOTES
 Potential for leapgroffing ?
 also in Europe (wechat -> token?)
 #+END_NOTES
-** asia
-*** china
+** Africa
+#+BEGIN_NOTES
+Ejemplifica el concepto de Leap Frogging (tlf cable -> movil, ahora tiene mayor penetracion) 
+#+END_NOTES
+*** https://pritamkabe.files.wordpress.com/2011/02/kenya-transaction.jpg
+#+BEGIN_NOTES
+conectivity
+Mpesa 
+Hablar de whatsapp y como crecio en africa
+#+END_NOTES
+** China
 *** branding in china
 #+BEGIN_NOTES
 Cuando abres una empresa, tienes que elegir 5 nombres en orden preferencial. En nuestro caso, cuando enviamos la aplicación, los 5 estaban ya registrados....
@@ -309,28 +351,18 @@ Pepsi-BaiShi
 Why Wechat failed to expand internationally ? 
 #+END_NOTES
 *** https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408619947705/rural-chinese-farmer-014.jpg
-#+BEGIN_NOTES
-**** tons of pictures and a model to explain 
-http://www.brandemia.org/el-curioso-proceso-de-traducir-marcas-al-chino  (*tons* of pictures I can use) 
-#+END_NOTES
-** africa
-*** connectivity
-*** mpesa 
-*** facebook 
-https://ews.github.io/internet.org.png
-
-* Case: Etsy Japan 
-:PROPERTIES:
-   :reveal_background: #123456
-   :END:
-#+BEGIN_NOTES
-Pictures: 
-Japan, 
-Japanese sites
-Kombini
-Sevel eleven 
-#+END_NOTES
-** Etsy Worldwide
+** Japan 
+*** Case: Etsy Japan 
+    :PROPERTIES: https://cdn.techinasia.com/wp-content/uploads/2014/04/EtsyTIAJPG-720x503.jpg
+    :reveal_background: #123456
+    :END:
+  #+BEGIN_NOTES
+  Pictures: 
+  Japan, 
+  Japanese sites
+  Kombini
+  Sevel eleven 
+  #+END_NOTES
 ** Etsy International & Marketplace dynamics 
 #+BEGIN_NOTES
 Supply and demand
@@ -365,7 +397,7 @@ ther problems:
 Softbank 
 
 #+END_NOTES
-* the role of compliance and legislation 
+* compliance and legislation 
 ** copyright laws and safe harbor
 #+BEGIN_NOTES
 Common law: Anglosaxon countries: can create jurisprudencia y precedente 
@@ -377,4 +409,10 @@ Icons: UN site
 
 #+END_NOTES
 * Questions? 
-* Gracias
+*  
+
+   :PROPERTIES:
+   :reveal_background: https://ews.github.io/thank_you.png
+   :reveal_background_trans: slide
+   :END:
+
