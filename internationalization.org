@@ -148,7 +148,12 @@ Hablar de la empresa esa alemana que queria ir a SV
 #+END_NOTES
 * 1. how to plan an internationalization launch 
 ** steps to adapt a product beyond our borders
-*** globalization: g13n
+*** i18n = g13n + l10n 
+#+BEGIN_NOTES
+explicar lo de los numeros
+TODO ESTO ES WEB, lo mismo para mobile, y otros dispositivos 
+#+END_NOTES
+*** G13N: globalization
 #+BEGIN_NOTES
 Adaptar un producto a internacional 
 data extraction : _() UNIT OF MEANING
@@ -167,6 +172,8 @@ domain names: puede que no importante ya, dominios que no rulan otros paises (cr
 *** internationalization: i18n 
 **** community 
 **** professional 
+*** https://ews.github.io/facebook_translations.png
+*** https://ews.github.io/twitter_translations.png
 *** regional adaptation 
 ** Howto an
 *** changing language 
