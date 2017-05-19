@@ -1,4 +1,4 @@
-#+REVEAL_ROOT: https://ews.github.io/reveal 
+#+REVEAL_ROOT:  
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil
@@ -23,7 +23,7 @@ https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/486px-Fl
 #+END_NOTES
 ** Juan B. Puerta
 ** Puerta Juan 
-** Juan Puertadovsky 
+** Juan juandovsky 
 ** Juan Puertasson
 #+BEGIN_NOTES
 Y porque estoy contando ese rollo 
@@ -54,7 +54,7 @@ explicar meterlos habitacion cerrada
 2. time flows East to West
 Kuuk Thaayorre speakers put a sequential series of cards in order—one which showed a man aging, another of a crocodile growing, and of a person eating a banana. The speakers were sat at tables during the experiment, once facing south, and another time facing north. Regardless of which direction they were facing, all speakers arranged the cards in order from east to west—the same direction the sun’s path takes through the sky as the day passes. By contrast, English speakers doing the same experiment always arranged the cards from left to right—the direction in which we read.
 
-For the Kuuk Thaayorre speakers, the passage of time was intimately tied to the cardinal directions. “We never told anyone which direction they were facing,” wrote Boroditsky. “The Kuuk Thaayorre knew that already and spontaneously used this spatial orientation to construct their representations of time.”
+For the Kuuk Thaayorre speakers, the passage of time was intimateUNIly tied to the cardinal directions. “We never told anyone which direction they were facing,” wrote Boroditsky. “The Kuuk Thaayorre knew that already and spontaneously used this spatial orientation to construct their representations of time.”
 #+END_NOTES
 ** Pinranha
 http://www.newyorker.com/wp-content/uploads/2007/04/070416_r16101a_p646.jpg
@@ -149,12 +149,19 @@ Hablar de la empresa esa alemana que queria ir a SV
 * 1. how to plan an internationalization launch 
 ** steps to adapt a product beyond our borders
 *** globalization: g13n
+#+BEGIN_NOTES
+Adaptar un producto a internacional 
+data extraction : _() UNIT OF MEANING
+pluralization : 9 different plurals arabic
+genderification : 3 genders German, 4 Czeck, Polish (Masc animad/inan, fem, neutro), Kannada: 9, Swahilli : 18 
+domain names: puede que no importante ya, dominios que no rulan otros paises (craigslist) 
+#+END_NOTES
+
+#+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -)
+**** Unicode / UTF8-16 everywhere 
+**** Data/String isolation and extraction 
 **** pluralization
 **** domain names
-#+BEGIN_NOTES
-puede que ya no sea importante
-dominios que no funcionan en otros paises (craigslist.org) 
-#+END_NOTES
 **** genderification 
 **** fake localization 
 *** internationalization: i18n 
@@ -168,13 +175,14 @@ dominios que no funcionan en otros paises (craigslist.org)
  Explain do it automatically, then let user select
  never via IP unless we are sure and we offer a way out
  #+END_NOTES
- Example : https://services.glgresearch.com/referral/?referredByCouncilMemberId=698132&projectId=2407029&source=CMP_ACCEPT&lang=en&redirectToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb3VuY2lsTWVtYmVySWQiOiI2OTgxMzIiLCJjb25zdWx0YXRpb25JZCI6IjI0MDcwMjkiLCJzb3VyY2UiOiJDTVBfQUNDRVBUIiwiY29uc3VsdGF0aW9uUGFydGljaXBhbnRJZCI6IjIzMzgzMDYxIiwibGFuZyI6ImVuIiwiaWF0IjoxNDkzNzU5NTkzLCJleHAiOjE0OTM3NjY3OTN9.y1gU5KO0LXjJaOPY_cw001njCaBNW-PP1gVmpBkOsuw#
- (look top right corner) 
+https://i.ytimg.com/vi/ptlt0Ba_EaI/maxresdefault.jpg
+*** http://www.languageicon.org/LanguageIcon.jpg
 ** security in i18n 
 *** unicode homoplyphs for the web 
-*** unicode homoplyphs for the other systems
 #+BEGIN_NOTES
-pablo attack in mysql/craigslist
+Explicar punycode, que es 
+Firefox: apple attack (bookmarks) 
+Explicar apple y craigslist mysql attack 
 #+END_NOTES
 ** globalization 
  #+BEGIN_NOTES
@@ -220,12 +228,12 @@ This is why the battle is ran here, orkut, etc
 #+BEGIN_NOTES
 Como lo hacemos si la empresa tiene ya un producto existente que tiene que localizar 
 #+END_NOTES
-** international is always seen as a tax 
-** The path of least resistance
-#+BEGIN_NOTES
-Talk about Etsy, planning was difficult, Soundcloud took few weeks
-At the end, internaitonaliztion
-#+END_NOTES
+*** international is always seen as a tax 
+*** The path of least resistance
+ #+BEGIN_NOTES
+ Talk about Etsy, planning was difficult, Soundcloud took few weeks
+ At the end, internaitonaliztion
+ #+END_NOTES
 ** start with people, start with a culture
 #+BEGIN_NOTES
 Like many things, el exito depende de la cultura que tengamos en la empresa 
@@ -300,8 +308,10 @@ http://www.brandemia.org/el-curioso-proceso-de-traducir-marcas-al-chino  (*tons*
 #+END_NOTES
 ** africa
 *** connectivity
-*** mpesa (
+*** mpesa 
 *** facebook 
+https://ews.github.io/internet.org.png
+
 * Case: Etsy Japan 
 :PROPERTIES:
    :reveal_background: #123456
@@ -319,6 +329,7 @@ Sevel eleven
 Supply and demand
 How to monetize that
 0 to 100 
+
 But Japan 
 Japan: 3 country in online population, close to 90% internet penetration 
 Browse on desktop and buy on phones
@@ -326,11 +337,24 @@ Kombini
 Customer care
 Allergy to non JP companies 
 #+END_NOTES
-** Internationalization to date 
-** Problem: Japan was not like the other countries 
-** Potential solutions 
-** Problems 
+** https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/twitter-in-japan.jpg
+** https://www.globalme.net/wp-content/uploads/2014/01/tweet1.png
+https://www.globalme.net/wp-content/uploads/2014/01/tweet1-eng.png
 #+BEGIN_NOTES
+139 chars
+354 Caracteres: traduccion 
+Twitter es muy popular con recetas
+#+END_NOTES
+** https://www.globalme.net/wp-content/uploads/2014/01/tweet2.png
+https://www.globalme.net/wp-content/uploads/2014/01/tweet2-eng.png
+#+BEGIN_NOTES
+119 a 284 
+#+END_NOTES
+** Kombini payments
+http://www.payme.jp/images/home/pic_overview_gateway_en.jpg
+** What we did 
+#+BEGIN_NOTES
+ther problems: 
 Softbank 
 
 #+END_NOTES
