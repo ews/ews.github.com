@@ -353,8 +353,9 @@ Why Wechat failed to expand internationally ?
 *** https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408619947705/rural-chinese-farmer-014.jpg
 ** Japan 
 *** Case: Etsy Japan 
-    :PROPERTIES: https://cdn.techinasia.com/wp-content/uploads/2014/04/EtsyTIAJPG-720x503.jpg
-    :reveal_background: #123456
+    :PROPERTIES: 
+    :reveal_background: https://cdn.techinasia.com/wp-content/uploads/2014/04/EtsyTIAJPG-720x503.jpg
+    :reveal_background_trans: slide
     :END:
   #+BEGIN_NOTES
   Pictures: 
@@ -409,8 +410,7 @@ Icons: UN site
 
 #+END_NOTES
 * Questions? 
-*  
-
+* 
    :PROPERTIES:
    :reveal_background: https://ews.github.io/thank_you.png
    :reveal_background_trans: slide
