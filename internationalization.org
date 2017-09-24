@@ -381,5 +381,12 @@ Example:  mcdonalds
  #+END_NOTES
 * Questions? 
 * https://ews.github.io/thank_you.png
+* Additional 
+** McDonalds icons 109 countries (2017) http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf
+comments https://news.ycombinator.com/item?id=14477121
+"The point was not to get optimal international recognition. Almost the opposite: every symbol should be inoffensive and connote no negative or inappropriate ideas in 108 countries."
+** How to make an internationally successful org 
+Conway's law: (https://en.wikipedia.org/wiki/Conway%27s_law)
+   "organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations"
 
 
