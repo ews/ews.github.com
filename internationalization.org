@@ -1,4 +1,4 @@
-#+REVEAL_ROOT:  
+#+REVEAL_ROOT: https://ews.github.io/reveal/js/reveal.js
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil
