@@ -1,4 +1,4 @@
-#+REVEAL_ROOT:  
+#+REVEAL_ROOT: ./reveal.js  
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil
