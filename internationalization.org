@@ -19,6 +19,7 @@ and my bio, and why am I talking to you about internationalization
    :reveal_background: #123456
    :END:
 ** SoundCloud
+** Skipti
 * What is Internationalization 
  #+BEGIN_NOTES
  Ask what is internationalization ? 
@@ -31,6 +32,7 @@ and my bio, and why am I talking to you about internationalization
 0 to 1
 1 to many 
 No es innovar, es tomar algo que existe, funciona, cambiarlo y adaptarlo para el resto del mundo 
+Esto no es innovacion, esto es ejecucion 
 #+END_NOTES
 ** http://searchengineland.com/figz/wp-content/seloads/2013/05/Facebook-Connections-Graph-Search-1920.png
 
@@ -130,6 +132,9 @@ y no deberia ser asi, internet vino con una promesa:
 
 Y esa ha sido mi obsesion durante toda la carrera profesional 
 #+END_NOTES
+** 
+#+ATTR_HTML: :width 60% :height 60%
+https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e908-a8bb-f2d9a894b2ed/source/1280x1280bb.jpg
 * Regions 
 #+BEGIN_NOTES
 Potential for leapgroffing ?
