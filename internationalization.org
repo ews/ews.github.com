@@ -140,6 +140,10 @@ https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e90
 ** Zappos and Zalando 
 https://ews.github.io/zappos_zalando.png
 ** Airbnb and 9 flats 
+** Airbnb i18n in the inside 
+https://ews.github.io/contextual-translation.png
+https://ews.github.io/context.png
+https://ews.github.io/phrase-tool.png
 ** Is your business dependent on global mechanics? 
 ** countless of local uber clones can survive, not local airbnb clones 
 #+BEGIN_NOTES
