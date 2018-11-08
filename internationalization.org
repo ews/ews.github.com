@@ -1,0 +1,419 @@
+#+REVEAL_ROOT: ./reveal.js  
+#+OPTIONS: reveal_title_slide:nil
+#+REVEAL_PLUGINS: notes
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+* Internationalization
+** https://ews.github.io/juan_pablo_puerta.png
+
+** https://ews.github.io/yelp.png
+* bio
+#+BEGIN_NOTES
+and my bio, and why am I talking to you about internationalization 
+#+END_NOTES
+** College: Theoretical Computer Science
+** Yahoo
+** Craigslist
+** Etsy 
+:PROPERTIES:
+   :reveal_background: #123456
+   :END:
+** SoundCloud
+** Skipti
+* What is Internationalization 
+ #+BEGIN_NOTES
+ Ask what is internationalization ? 
+ For me it's related to innovation, and I want to talk about that 
+ #+END_NOTES
+** http://hyperlush.com/wp-content/uploads/2015/05/zerotoonecrisurzua.jpg
+
+** https://blog.percolate.com/wp-content/uploads/2014/07/two-types-of-progress.png
+#+BEGIN_NOTES
+0 to 1
+1 to many 
+No es innovar, es tomar algo que existe, funciona, cambiarlo y adaptarlo para el resto del mundo 
+Esto no es innovacion, esto es ejecucion 
+#+END_NOTES
+** http://searchengineland.com/figz/wp-content/seloads/2013/05/Facebook-Connections-Graph-Search-1920.png
+
+#+BEGIN_NOTES
+intro: Internet came with a promise 
+#+END_NOTES
+** http://techcabal.com/wp-content/uploads/2015/03/rocket-internet-in-Pakistan.jpg
+** http://tech.eu/wp-content/uploads/2014/05/www.kinnevik.se-Global-Kinnevik-Rocket-CMD-2014-Rocket-Internet_Kinnevik-Rocket-CMD-2014.pdf-1.png
+** Zappos clones 
+** http://www.acclaro.com/wp-content/uploads/legacy-images/zalora.jpg
+#+BEGIN_NOTES
+Indonedia
+#+END_NOTES
+** http://www.smartinsights.com/wp-content/uploads/2016/07/Zalando-growth-European-countries-700x395.png
+** https://ews.github.io/lamoda.png
+#+BEGIN_NOTES
+Lamoda: Russia and Kazhagstan 
+#+END_NOTES
+** https://ews.github.io/jabong.png
+#+BEGIN_NOTES
+India 
+#+END_NOTES
+** Etsy Clones 
+** https://ews.github.io/dawanda.png
+** http://webrazzi.com/wp-content/uploads/2012/04/eleseri.jpg 
+** https://res.cloudinary.com/crunchbase-production/image/upload/v1397185281/6ed922a67827b87a6d18cc7d4ec7f4b9.png
+#+BEGIN_NOTES
+They focus on particular companies for particular markets (zappos clone in Germany, not in the UK or new zealand) 
+the companies are really short lived : 
+- they burts
+- they get acquired (etsy clone) 
+- they take over the market 
+they are the worst in strategy and new product development, but probably the best in execution, the can generate a who new company within weeks 
+#+END_NOTES
+** Rocket Internet
+Innovation on delivery, not inception 
+#+BEGIN_NOTES
+Rocket tarda dos semanas en crear una empresa, y mucho menos en destrozarla si no funciona
+Esto pasa porque muchas empresas americanas tardan en salir
+ademas tienen problemas culturales en internacional, lo cual va en dos sentidos 
+Hablar de la empresa esa alemana que queria ir a SV 
+
+Y es una empresa que sabe hablar a los usuarios en su propio idioma 
+
+#+END_NOTES
+* Nothing defines us as much as the language we speak 
+** https://ews.github.io/superman_arabic_1.png
+** https://ews.github.io/superman_arabic_2.png
+#+BEGIN_NOTES
+Contar que una de las primeras cosas que note cuandoinafui a paises arabes es que las instrucciones aparecen contrario (washing machine) 
+Problemas medicos (inhaladores) 
+#+END_NOTES
+** 
+https://ews.github.io/wikipedia_hebrew.png
+** 
+https://ews.github.io/wikipedia_italian.png
+
+** https://ews.github.io/leah_boroditsky.png
+** https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png
+  #+BEGIN_NOTES
+Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
+no tanto por el vocabulario, sino por las estructuras mentales que requerimos
+la idea es que el idioma que hablamos define el modo en que vemos e initeractuamos 
+ Linguistic relativity 
+ Sapir–Whorf hypothesis,
+  #+END_NOTES
+** Pormpuraaw, AU
+ https://c.photoshelter.com/img-get/I0000vYyTAvcJ5hA/s/800/640/DX22464-1-Pormpuraaw-Dancers.jpg
+#+BEGIN_NOTES
+Language: Kuuk Thaayorre, 
+1. no tienen derecha o izquierda, delante o detras
+explicar meterlos habitacion cerrada
+2. time flows East to West
+Kuuk Thaayorre speakers put a sequential series of cards in order—one which showed a man aging, another of a crocodile growing, and of a person eating a banana. The speakers were sat at tables during the experiment, once facing south, and another time facing north. Regardless of which direction they were facing, all speakers arranged the cards in order from east to west—the same direction the sun’s path takes through the sky as the day passes. By contrast, English speakers doing the same experiment always arranged the cards from left to right—the direction in which we read.
+
+For the Kuuk Thaayorre speakers, the passage of time was intimateUNIly tied to the cardinal directions. “We never told anyone which direction they were facing,” wrote Boroditsky. “The Kuuk Thaayorre knew that already and spontaneously used this spatial orientation to construct their representations of time.”
+#+END_NOTES
+** Pinranha
+http://www.newyorker.com/wp-content/uploads/2007/04/070416_r16101a_p646.jpg
+#+BEGIN_NOTES
+Descubiertos en los 80 por Dan Everett, de UC Berkeley
+
+Dos caracteristicas: No numeros y tienes que dar evidencia de como sabes de lo que hablas a traves de particulas
+
+
+Piranha: a language without numbers, and where you need to provide evidence of what you talk about: no religion 
+Piranha no colors, number two (only one, few, many) 
+Same method for providing evidence in In Nuevo San Juan, Peru, the Matses people 
+#+END_NOTES
+** Arrival 
+https://fsmedia.imgix.net/10/d7/3b/a3/65fa/442c/a952/80f9cb6ca435/arrival-language-2jpeg.jpeg
+#+BEGIN_NOTES
+Esto es importante porque tenemos resistencia a los servicios que no reconocemos como locales, ceranos a nosotros
+Ole/Yahoo, Tuenti/Facebook 
+
+y no deberia ser asi, internet vino con una promesa: 
+
+Y esa ha sido mi obsesion durante toda la carrera profesional 
+#+END_NOTES
+** 
+#+ATTR_HTML: :width 60% :height 60%
+https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e908-a8bb-f2d9a894b2ed/source/1280x1280bb.jpg
+* Do you have to go international ?
+** Zappos and Zalando 
+ https://ews.github.io/zappos_zalando.png
+** Airbnb and 9 flats 
+** Is your business dependent on global mechanics? 
+** countless of local uber clones can survive, not local airbnb clones 
+#+BEGIN_NOTES
+airbnb clones compete on vertical (airbnb for rich people, airbnb for markerspaces) 
+#+END_NOTES
+* Regions 
+#+BEGIN_NOTES
+Potential for leapgroffing ?
+also in Europe (wechat -> token?)
+#+END_NOTES
+** Two philosophies 
+Going deep, going wide 
+** Starting with a region to prove a point 
+SoundCloud Example: Brazil 
+ #+BEGIN_NOTES
+vamos a hablar de algo MAS QUE DE PRODUCTO
+ Which couuntries should we focus on 
+ Where should we put our energies? 
+LOCALIZATION: AMAZON (country at a time) vs FACEBOOK (all same time) 
+Brazil : 
+From product: 
+- English fluency lowest in the world (8%) 
+- Internet population higher in the world (top 5) 
+- Internet penetration really low (about 30%) at the times
+#+END_NOTES
+*** Internet users 
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.svg/1280px-InternetUsersWorldMap.svg.png
+*** Internet penetration 
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png
+*** English Fluency Index 
+https://upload.wikimedia.org/wikipedia/commons/8/8c/EF_EPI_2016_World_map.jpg
+#+BEGIN_NOTES
+https://en.wikipedia.org/wiki/EF_English_Proficiency_Index
+
+Country	2016 Rank	2016 Score	2016 Band
+ Netherlands	1	72.16	Very High Proficiency
+ Denmark	2	71.15	Very High Proficiency
+ Sweden	3	70.81	Very High Proficiency
+ Norway	4	68.54	Very High Proficiency
+ Finland	5	66.61	Very High Proficiency
+ Singapore	6	63.52	Very High Proficiency
+ Luxembourg	7	63.20	Very High Proficiency
+ Austria	8	62.13	High Proficiency
+ Germany	9	61.58	High Proficiency
+ Poland	10	61.49	High Proficiency
+ Belgium	11	60.90	High Proficiency
+ Malaysia	12	60.70	High Proficiency
+
+Spain: number 25 (half population able to speak some English, 15% considered fluent or proficient) , Span below Romania, over Bosnia and Herzegovina
+Brazil: number 40 , 20% population speak some English, 8% fluent or proficient, below China and above Ukraine
+
+This is why the battle is ran here, orkut, etc
+#+END_NOTES
+** But still international is where most of the growth will happen
+Three examples: Africa, China and Japan 
+** Africa
+#+BEGIN_NOTES
+Ejemplifica el concepto de Leap Frogging (tlf cable -> movil, ahora tiene mayor penetracion) 
+#+END_NOTES
+*** https://pritamkabe.files.wordpress.com/2011/02/kenya-transaction.jpg
+#+BEGIN_NOTES
+conectivity
+Mpesa 
+Hablar de whatsapp y como crecio en africa
+#+END_NOTES
+** China
+*** branding in china
+#+BEGIN_NOTES
+Cuando abres una empresa, tienes que elegir 5 nombres en orden preferencial. En nuestro caso, cuando enviamos la aplicación, los 5 estaban ya registrados....
+#+END_NOTES
+*** https://static.boredpanda.com/blog/wp-content/uuuploads/funny-chinese-sign-translation-fails/funny-chinese-sign-translation-fails-35.jpg 
+#+BEGIN_NOTES
+(more joke, say 'it says coffe instead of coffee, horrible)
+#+END_NOTES
+*** http://www.brandemia.org/sites/default/files/inline/images/carrefour_logo_chino.jpg
+*** http://www.brandemia.org/sites/default/files/inline/images/chino_sprite_logo_0.jpg
+*** https://www.meneame.net/backend/media?type=comment&id=21581992&version=0&ts=1492528205&image.jpeg
+#+BEGIN_NOTES
+Pepsi-BaiShi
+ Burger King HanBaoWang (hamburguesa rey)
+#+END_NOTES
+*** http://www.brandemia.org/sites/default/files/inline/images/cocacola_chino_logo.jpg
+*** http://www.brandemia.org/sites/default/files/inline/images/logo_nestle_chino.jpg
+*** https://www.nanjingmarketinggroup.com/sites/default/files/image/WeChat/WeChat-logo.jpg
+#+BEGIN_NOTES
+Why Wechat failed to expand internationally ? 
+#+END_NOTES
+*** https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408619947705/rural-chinese-farmer-014.jpg
+** Japan 
+*** 
+    :PROPERTIES: 
+    :reveal_background: https://cdn.techinasia.com/wp-content/uploads/2014/04/EtsyTIAJPG-720x503.jpg
+    :reveal_background_trans: slide
+    :END:
+  #+BEGIN_NOTES
+  Pictures: 
+  Japan, 
+  Japanese sites
+  Kombini
+  Sevel eleven 
+  #+END_NOTES
+** Etsy International & Marketplace dynamics 
+#+BEGIN_NOTES
+Supply and demand
+How to monetize that
+0 to 100 
+
+But Japan 
+Japan: 3 country in online population, close to 90% internet penetration 
+Browse on desktop and buy on phones
+Kombini
+Customer care
+Allergy to non JP companies 
+#+END_NOTES
+** https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/twitter-in-japan.jpg
+** https://www.globalme.net/wp-content/uploads/2014/01/tweet1.png
+https://www.globalme.net/wp-content/uploads/2014/01/tweet1-eng.png
+#+BEGIN_NOTES
+139 chars
+354 Caracteres: traduccion 
+Twitter es muy popular con recetas
+#+END_NOTES
+** https://www.globalme.net/wp-content/uploads/2014/01/tweet2.png
+https://www.globalme.net/wp-content/uploads/2014/01/tweet2-eng.png
+#+BEGIN_NOTES
+119 a 284 
+#+END_NOTES
+** Kombini 
+http://www.payme.jp/images/home/pic_overview_gateway_en.jpg
+#+BEGIN_NOTES
+what we did 
+ther problems: 
+Softbank 
+
+#+END_NOTES
+** Question: Which innovative ideas would you have to attact a totally different market? 
+#+BEGIN_NOTES
+Etsy Japan 
+#+END_NOTES
+* Product
+Things to consider in international
+** steps to adapt a product beyond our borders
+*** i18n = g13n + l10n 
+Internationalization = Globalization + Localization 
+#+BEGIN_NOTES
+explicar lo de los numeros
+TODO ESTO ES WEB, lo mismo para mobile, y otros dispositivos 
+#+END_NOTES
+*** G13N: globalization
+#+BEGIN_NOTES
+Adaptar un producto a internacional 
+data extraction : _() UNIT OF MEANING
+pluralization : 9 different plurals arabic
+genderification : 3 genders German, 4 Czeck, Polish (Masc animad/inan, fem, neutro), Kannada: 9, Swahilli : 18 
+domain names: puede que no importante ya, dominios que no rulan otros paises (craigslist) 
+#+END_NOTES
+
+#+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -)
+
+**** Encoding 
+**** Data extraction 
+**** pluralization
+**** genderification 
+**** others (domain names)
+*** l10n localizationn 
+**** community 
+**** professional 
+*** https://ews.github.io/facebook_translations.png
+*** https://ews.github.io/twitter_translations.png
+*** regional adaptation 
+#+BEGIN_NOTES
+Un caso concreto: RtL
+Aunque hay muchos, dispositivos con necesidades especiales (soundcloud lower bit rate in south east asia) 
+#+END_NOTES
+*** changing language 
+ #+BEGIN_NOTES
+ Icon for language
+ Explain do it automatically, then let user select
+ never via IP unless we are sure and we offer a way out
+ #+END_NOTES
+https://i.ytimg.com/vi/ptlt0Ba_EaI/maxresdefault.jpg
+*** http://www.languageicon.org/LanguageIcon.jpg
+** security in i18n 
+*** unicode homoplyphs for the web 
+#+BEGIN_NOTES
+Explicar punycode, que es 
+Parar y hacer ejemplo
+Firefox: apple attack (bookmarks) 
+Explicar apple y craigslist mysql attack 
+Y con esto SE PARA DE HABLAR DE PRODUCTO
+#+END_NOTES
+** Question: How would you decide which country to expand into first? 
+#+BEGIN_NOTES
+Soundcloud - brazil 
+Letgo - Google ads 
+#+END_NOTES
+* Culture
+integrating i18n into a running product / startup
+#+BEGIN_NOTES
+Como lo hacemos si la empresa tiene ya un producto existente que tiene que localizar 
+#+END_NOTES
+**** international is always seen as a tax 
+**** The path of least resistance
+  #+BEGIN_NOTES
+  Talk about Etsy, planning was difficult, Soundcloud took few weeks
+  At the end, internaitonaliztion
+  #+END_NOTES
+** start with people, start with a culture
+#+BEGIN_NOTES
+Like many things, el exito depende de la cultura que tengamos en la empresa 
+Check the particularities of your team
+BAd: Wechat can't go outside china
+Good: SoundCloud Android app 
+#+END_NOTES
+** functions of the intl team: 
+***** creating tools / integrating APIs 
+***** launching new languages for all features / sections
+***** launching a new feature / section for all supported languages
+legal : 
+*** legal framework, potential liabilities 
+**** when something won't sound ok, or when major changes are needed
+
+**** provide infrastructure to rest of company 
+**** provide intelligence to the rest of the commpany
+**** veto power over localization issues 
+**** keep the different languages in sync (if needed) 
+**** tools to improve communication with users
+** Set a plan and KPIs
+** Make a fake translation 
+#+BEGIN_NOTES
+Malkovich
+#+END_NOTES
+** Select a country, prove a point 
+#+BEGIN_NOTES
+Understand the country (go there and talk to users)
+Devices, connectivity 
+Slow the connection down at the office if needed 
+#+END_NOTES
+** International is where most of the growth happens
+** Growth in developing countries as strategy
+https://i.ytimg.com/vi/6WhjwGvXq7c/maxresdefault.jpg
+#+BEGIN_NOTES
+wahtsapp 
+#+END_NOTES
+** Growth in developing countries as a need
+https://ews.github.io/internet.org.png
+#+BEGIN_NOTES
+put pictures here
+when you literally need deeloping countries to growth
+#+END_NOTES
+** Which innovative ideas would you have to attact a saturated market? 
+#+BEGIN_NOTES
+Etsy - Dawanda 
+Empowering local users 
+#+END_NOTES
+* some misc stuff 
+** compliance and legislation 
+copyright laws and safe harbor
+ #+BEGIN_NOTES
+ Common law: Anglosaxon countries: can create jurisprudencia y precedente 
+ #+END_NOTES
+** marketing / i18n 
+Example:  mcdonalds 
+ #+BEGIN_NOTES
+ Icons: UN site
+
+ #+END_NOTES
+* Questions? 
+* https://ews.github.io/thank_you.png
+* Additional 
+** McDonalds icons 109 countries (2017) http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf
+comments https://news.ycombinator.com/item?id=14477121
+"The point was not to get optimal international recognition. Almost the opposite: every symbol should be inoffensive and connote no negative or inappropriate ideas in 108 countries."
+** How to make an internationally successful org 
+Conway's law: (https://en.wikipedia.org/wiki/Conway%27s_law)
+   "organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations"
+
+

@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Juan Pablo Puerta)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Juan Pablo Puerta</h2><p class="date">Created: 2018-04-16 lun 13:02</p>
+</section>
+<p>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"/&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;meta name="author" content="(Juan Pablo Puerta)"/&gt;
+&lt;style type="text/css"&gt;
+.underline { text-decoration: underline; }
+&lt;/style&gt;
+&lt;link rel="stylesheet" href="./reveal.js/css/reveal.css"/&gt;
+</p>
+
+<p>
+&lt;link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/&gt;
+</p>
+
+
+<p>
+&lt;!&#x2013; If the query includes 'print-pdf', include the PDF print sheet &#x2013;&gt;
+&lt;script&gt;
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class="reveal"&gt;
+&lt;div class="slides"&gt;
+&lt;section&gt;
+&lt;section id="slide-org688918e"&gt;
+&lt;h2 id="org688918e"&gt;Internationalization&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org688918e"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-org6a3ec42"&gt;
+&lt;h3 id="org6a3ec42"&gt;&lt;img src="<img src="https://ews.github.io/juan_pablo_puerta.png" alt="juan_pablo_puerta.png" />" alt="juan<sub>pablo</sub><sub>puerta.png</sub>" /&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;/section&gt;
+&lt;section id="slide-org4fb0fcf"&gt;
+&lt;h3 id="org4fb0fcf"&gt;&lt;img src="<img src="https://ews.github.io/yelp.png" alt="yelp.png" />" alt="yelp.png" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-orga6eef7f"&gt;
+&lt;h2 id="orga6eef7f"&gt;bio&lt;/h2&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+and my bio, and why am I talking to you about internationalization 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgf718dab"&gt;
+&lt;h3 id="orgf718dab"&gt;College: Theoretical Computer Science&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org5fd03f8"&gt;
+&lt;h3 id="org5fd03f8"&gt;Yahoo&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org7ff38f7"&gt;
+&lt;h3 id="org7ff38f7"&gt;Craigslist&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org12bce11" data-background="#123456"&gt;
+&lt;h3 id="org12bce11"&gt;Etsy&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org2deafad"&gt;
+&lt;h3 id="org2deafad"&gt;SoundCloud&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org35b3a8f"&gt;
+&lt;h3 id="org35b3a8f"&gt;Skipti&lt;/h3&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-orgb5caae5"&gt;
+&lt;h2 id="orgb5caae5"&gt;What is Internationalization&lt;/h2&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Ask what is internationalization ? 
+For me it's related to innovation, and I want to talk about that 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orga01d19d"&gt;
+&lt;h3 id="orga01d19d"&gt;&lt;img src="<img src="http://hyperlush.com/wp-content/uploads/2015/05/zerotoonecrisurzua.jpg" alt="zerotoonecrisurzua.jpg" />" alt="zerotoonecrisurzua.jpg" /&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;/section&gt;
+&lt;section id="slide-orga5a1a8d"&gt;
+&lt;h3 id="orga5a1a8d"&gt;&lt;img src="<img src="https://blog.percolate.com/wp-content/uploads/2014/07/two-types-of-progress.png" alt="two-types-of-progress.png" />" alt="two-types-of-progress.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+0 to 1
+1 to many 
+No es innovar, es tomar algo que existe, funciona, cambiarlo y adaptarlo para el resto del mundo 
+Esto no es innovacion, esto es ejecucion 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org78158ff"&gt;
+&lt;h3 id="org78158ff"&gt;&lt;img src="<img src="http://searchengineland.com/figz/wp-content/seloads/2013/05/Facebook-Connections-Graph-Search-1920.png" alt="Facebook-Connections-Graph-Search-1920.png" />" alt="Facebook-Connections-Graph-Search-1920.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+intro: Internet came with a promise 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgc2e7a4d"&gt;
+&lt;h3 id="orgc2e7a4d"&gt;&lt;img src="<img src="http://techcabal.com/wp-content/uploads/2015/03/rocket-internet-in-Pakistan.jpg" alt="rocket-internet-in-Pakistan.jpg" />" alt="rocket-internet-in-Pakistan.jpg" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgaa81ed5"&gt;
+&lt;h3 id="orgaa81ed5"&gt;&lt;img src="<img src="http://tech.eu/wp-content/uploads/2014/05/www.kinnevik.se-Global-Kinnevik-Rocket-CMD-2014-Rocket-Internet_Kinnevik-Rocket-CMD-2014.pdf-1.png" alt="www.kinnevik.se-Global-Kinnevik-Rocket-CMD-2014-Rocket-Internet_Kinnevik-Rocket-CMD-2014.pdf-1.png" />" alt="www.kinnevik.se-Global-Kinnevik-Rocket-CMD-2014-Rocket-Internet<sub>Kinnevik</sub>-Rocket-CMD-2014.pdf-1.png" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org99bf7e8"&gt;
+&lt;h3 id="org99bf7e8"&gt;Zappos clones&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-orga494a54"&gt;
+&lt;h3 id="orga494a54"&gt;&lt;img src="<img src="http://www.acclaro.com/wp-content/uploads/legacy-images/zalora.jpg" alt="zalora.jpg" />" alt="zalora.jpg" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Indonedia
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org1a105b5"&gt;
+&lt;h3 id="org1a105b5"&gt;&lt;img src="<img src="http://www.smartinsights.com/wp-content/uploads/2016/07/Zalando-growth-European-countries-700x395.png" alt="Zalando-growth-European-countries-700x395.png" />" alt="Zalando-growth-European-countries-700x395.png" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org6444d39"&gt;
+&lt;h3 id="org6444d39"&gt;&lt;img src="<img src="https://ews.github.io/lamoda.png" alt="lamoda.png" />" alt="lamoda.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Lamoda: Russia and Kazhagstan 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org731f28f"&gt;
+&lt;h3 id="org731f28f"&gt;&lt;img src="<img src="https://ews.github.io/jabong.png" alt="jabong.png" />" alt="jabong.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+India 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org4ee7bba"&gt;
+&lt;h3 id="org4ee7bba"&gt;Etsy Clones&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org602d43e"&gt;
+&lt;h3 id="org602d43e"&gt;&lt;img src="<img src="https://ews.github.io/dawanda.png" alt="dawanda.png" />" alt="dawanda.png" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgcc2200c"&gt;
+&lt;h3 id="orgcc2200c"&gt;&lt;img src="<img src="http://webrazzi.com/wp-content/uploads/2012/04/eleseri.jpg" alt="eleseri.jpg" />" alt="eleseri.jpg" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org12c6a68"&gt;
+&lt;h3 id="org12c6a68"&gt;&lt;img src="<img src="https://res.cloudinary.com/crunchbase-production/image/upload/v1397185281/6ed922a67827b87a6d18cc7d4ec7f4b9.png" alt="6ed922a67827b87a6d18cc7d4ec7f4b9.png" />" alt="6ed922a67827b87a6d18cc7d4ec7f4b9.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+They focus on particular companies for particular markets (zappos clone in Germany, not in the UK or new zealand) 
+the companies are really short lived : 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;they burts&lt;/li&gt;
+&lt;li&gt;they get acquired (etsy clone)&lt;/li&gt;
+&lt;li&gt;they take over the market&lt;/li&gt;
+</p>
+
+<p>
+&lt;/ul&gt;
+&lt;p&gt;
+they are the worst in strategy and new product development, but probably the best in execution, the can generate a who new company within weeks 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgb441dfe"&gt;
+&lt;h3 id="orgb441dfe"&gt;Rocket Internet&lt;/h3&gt;
+&lt;p&gt;
+Innovation on delivery, not inception 
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Rocket tarda dos semanas en crear una empresa, y mucho menos en destrozarla si no funciona
+Esto pasa porque muchas empresas americanas tardan en salir
+ademas tienen problemas culturales en internacional, lo cual va en dos sentidos 
+Hablar de la empresa esa alemana que queria ir a SV 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+Y es una empresa que sabe hablar a los usuarios en su propio idioma 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org92fb6c9"&gt;
+&lt;h2 id="org92fb6c9"&gt;Nothing defines us as much as the language we speak&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org92fb6c9"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-org04683c1"&gt;
+&lt;h3 id="org04683c1"&gt;&lt;img src="<img src="https://ews.github.io/superman_arabic_1.png" alt="superman_arabic_1.png" />" alt="superman<sub>arabic</sub><sub>1.png</sub>" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org9d02730"&gt;
+&lt;h3 id="org9d02730"&gt;&lt;img src="<img src="https://ews.github.io/superman_arabic_2.png" alt="superman_arabic_2.png" />" alt="superman<sub>arabic</sub><sub>2.png</sub>" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Contar que una de las primeras cosas que note cuandoinafui a paises arabes es que las instrucciones aparecen contrario (washing machine) 
+Problemas medicos (inhaladores) 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgdf78399"&gt;
+&lt;h3 id="orgdf78399"&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://ews.github.io/wikipedia_hebrew.png" alt="wikipedia_hebrew.png" />" alt="wikipedia<sub>hebrew.png</sub>" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="slide-org9116690"&gt;
+&lt;h3 id="org9116690"&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://ews.github.io/wikipedia_italian.png" alt="wikipedia_italian.png" />" alt="wikipedia<sub>italian.png</sub>" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</p>
+
+<p>
+&lt;/section&gt;
+&lt;section id="slide-org331dac7"&gt;
+&lt;h3 id="org331dac7"&gt;&lt;img src="<img src="https://ews.github.io/leah_boroditsky.png" alt="leah_boroditsky.png" />" alt="leah<sub>boroditsky.png</sub>" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org84bf59f"&gt;
+&lt;h3 id="org84bf59f"&gt;&lt;img src="<img src="https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png" alt="43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png" />" alt="43919bb17d987552fcaffe17e89c90d8<sub>clip</sub>-art-girl-and-boy-boy-girl-clipart<sub>2400</sub>-1902.png" /&gt;&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
+no tanto por el vocabulario, sino por las estructuras mentales que requerimos
+la idea es que el idioma que hablamos define el modo en que vemos e initeractuamos 
+ Linguistic relativity 
+ Sapir–Whorf hypothesis,
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgce355de"&gt;
+&lt;h3 id="orgce355de"&gt;Pormpuraaw, AU&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://c.photoshelter.com/img-get/I0000vYyTAvcJ5hA/s/800/640/DX22464-1-Pormpuraaw-Dancers.jpg" alt="DX22464-1-Pormpuraaw-Dancers.jpg" />" alt="DX22464-1-Pormpuraaw-Dancers.jpg" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Language: Kuuk Thaayorre, 
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;no tienen derecha o izquierda, delante o detras&lt;/li&gt;
+</p>
+
+<p>
+&lt;/ol&gt;
+&lt;p&gt;
+explicar meterlos habitacion cerrada
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;time flows East to West&lt;/li&gt;
+</p>
+
+<p>
+&lt;/ol&gt;
+&lt;p&gt;
+Kuuk Thaayorre speakers put a sequential series of cards in order—one which showed a man aging, another of a crocodile growing, and of a person eating a banana. The speakers were sat at tables during the experiment, once facing south, and another time facing north. Regardless of which direction they were facing, all speakers arranged the cards in order from east to west—the same direction the sun’s path takes through the sky as the day passes. By contrast, English speakers doing the same experiment always arranged the cards from left to right—the direction in which we read.
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+For the Kuuk Thaayorre speakers, the passage of time was intimateUNIly tied to the cardinal directions. “We never told anyone which direction they were facing,” wrote Boroditsky. “The Kuuk Thaayorre knew that already and spontaneously used this spatial orientation to construct their representations of time.”
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org4fcfa93"&gt;
+&lt;h3 id="org4fcfa93"&gt;Pinranha&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="http://www.newyorker.com/wp-content/uploads/2007/04/070416_r16101a_p646.jpg" alt="070416_r16101a_p646.jpg" />" alt="070416<sub>r16101a</sub><sub>p646.jpg</sub>" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Descubiertos en los 80 por Dan Everett, de UC Berkeley
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+Dos caracteristicas: No numeros y tienes que dar evidencia de como sabes de lo que hablas a traves de particulas
+&lt;/p&gt;
+</p>
+
+
+<p>
+&lt;p&gt;
+Piranha: a language without numbers, and where you need to provide evidence of what you talk about: no religion 
+Piranha no colors, number two (only one, few, many) 
+Same method for providing evidence in In Nuevo San Juan, Peru, the Matses people 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgc4fc32d"&gt;
+&lt;h3 id="orgc4fc32d"&gt;Arrival&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://fsmedia.imgix.net/10/d7/3b/a3/65fa/442c/a952/80f9cb6ca435/arrival-language-2jpeg.jpeg" alt="arrival-language-2jpeg.jpeg" />" alt="arrival-language-2jpeg.jpeg" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Esto es importante porque tenemos resistencia a los servicios que no reconocemos como locales, ceranos a nosotros
+Ole/Yahoo, Tuenti/Facebook 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+y no deberia ser asi, internet vino con una promesa: 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+Y esa ha sido mi obsesion durante toda la carrera profesional 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org0714d6a"&gt;
+&lt;h3 id="org0714d6a"&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e908-a8bb-f2d9a894b2ed/source/1280x1280bb.jpg" alt="1280x1280bb.jpg" />" alt="1280x1280bb.jpg" width="60%" height="60%" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org28dcc94"&gt;
+&lt;h2 id="org28dcc94"&gt;Regions&lt;/h2&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Potential for leapgroffing ?
+also in Europe (wechat -&amp;gt; token?)
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org74a7b9d"&gt;
+&lt;h3 id="org74a7b9d"&gt;Two philosophies&lt;/h3&gt;
+&lt;p&gt;
+Going deep, going wide 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="slide-org79ef93c"&gt;
+&lt;h3 id="org79ef93c"&gt;Starting with a region to prove a point&lt;/h3&gt;
+&lt;p&gt;
+SoundCloud Example: Brazil 
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+vamos a hablar de algo MAS QUE DE PRODUCTO
+ Which couuntries should we focus on 
+ Where should we put our energies? 
+LOCALIZATION: AMAZON (country at a time) vs FACEBOOK (all same time) 
+Brazil : 
+From product: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;English fluency lowest in the world (8%)&lt;/li&gt;
+&lt;li&gt;Internet population higher in the world (top 5)&lt;/li&gt;
+&lt;li&gt;Internet penetration really low (about 30%) at the times&lt;/li&gt;
+</p>
+
+<p>
+&lt;/ul&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org6d848ee"&gt;
+&lt;h4 id="org6d848ee"&gt;Internet users&lt;/h4&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.svg/1280px-InternetUsersWorldMap.svg.png" alt="1280px-InternetUsersWorldMap.svg.png" />" alt="1280px-InternetUsersWorldMap.svg.png" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="slide-org6ea4433"&gt;
+&lt;h4 id="org6ea4433"&gt;Internet penetration&lt;/h4&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png" alt="1280px-InternetPenetrationWorldMap.svg.png" />" alt="1280px-InternetPenetrationWorldMap.svg.png" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="slide-orga859575"&gt;
+&lt;h4 id="orga859575"&gt;English Fluency Index&lt;/h4&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/EF_EPI_2016_World_map.jpg" alt="EF_EPI_2016_World_map.jpg" />" alt="EF<sub>EPI</sub><sub>2016</sub><sub>World</sub><sub>map.jpg</sub>" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+&lt;a href="<a href="https://en.wikipedia.org/wiki/EF_English_Proficiency_Index">https://en.wikipedia.org/wiki/EF_English_Proficiency_Index</a>"&gt;<a href="https://en.wikipedia.org/wiki/EF_English_Proficiency_Index">https://en.wikipedia.org/wiki/EF_English_Proficiency_Index</a>&lt;/a&gt;
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+Country	2016 Rank	2016 Score	2016 Band
+ Netherlands	1	72.16	Very High Proficiency
+ Denmark	2	71.15	Very High Proficiency
+ Sweden	3	70.81	Very High Proficiency
+ Norway	4	68.54	Very High Proficiency
+ Finland	5	66.61	Very High Proficiency
+ Singapore	6	63.52	Very High Proficiency
+ Luxembourg	7	63.20	Very High Proficiency
+ Austria	8	62.13	High Proficiency
+ Germany	9	61.58	High Proficiency
+ Poland	10	61.49	High Proficiency
+ Belgium	11	60.90	High Proficiency
+ Malaysia	12	60.70	High Proficiency
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+Spain: number 25 (half population able to speak some English, 15% considered fluent or proficient) , Span below Romania, over Bosnia and Herzegovina
+Brazil: number 40 , 20% population speak some English, 8% fluent or proficient, below China and above Ukraine
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+This is why the battle is ran here, orkut, etc
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgb15063e"&gt;
+&lt;h3 id="orgb15063e"&gt;But still international is where most of the growth will happen&lt;/h3&gt;
+&lt;p&gt;
+Three examples: Africa, China and Japan 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="slide-org513ef52"&gt;
+&lt;h3 id="org513ef52"&gt;Africa&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Ejemplifica el concepto de Leap Frogging (tlf cable -&amp;gt; movil, ahora tiene mayor penetracion) 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org2343499"&gt;
+&lt;h4 id="org2343499"&gt;&lt;img src="<img src="https://pritamkabe.files.wordpress.com/2011/02/kenya-transaction.jpg" alt="kenya-transaction.jpg" />" alt="kenya-transaction.jpg" /&gt;&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+conectivity
+Mpesa 
+Hablar de whatsapp y como crecio en africa
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgde71fa2"&gt;
+&lt;h3 id="orgde71fa2"&gt;China&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgde71fa2"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-orgd2c38d9"&gt;
+&lt;h4 id="orgd2c38d9"&gt;branding in china&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Cuando abres una empresa, tienes que elegir 5 nombres en orden preferencial. En nuestro caso, cuando enviamos la aplicación, los 5 estaban ya registrados&amp;#x2026;.
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org09ce371"&gt;
+&lt;h4 id="org09ce371"&gt;&lt;img src="<img src="https://www.meneame.net/backend/media?type=comment&amp;amp;id=21581797&amp;amp;version=0&amp;amp;ts=1492526679&amp;amp;image.jpeg" alt="media?type=comment&amp;amp;id=21581797&amp;amp;version=0&amp;amp;ts=1492526679&amp;amp;image.jpeg" />" alt="media?type=comment&amp;amp;id=21581797&amp;amp;version=0&amp;amp;ts=1492526679&amp;amp;image.jpeg" /&gt;&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+(more joke, say 'it says coffe instead of coffee, horrible)
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org0844cbe"&gt;
+&lt;h4 id="org0844cbe"&gt;&lt;img src="<img src="http://www.brandemia.org/sites/default/files/inline/images/carrefour_logo_chino.jpg" alt="carrefour_logo_chino.jpg" />" alt="carrefour<sub>logo</sub><sub>chino.jpg</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-org850c76b"&gt;
+&lt;h4 id="org850c76b"&gt;&lt;img src="<img src="http://www.brandemia.org/sites/default/files/inline/images/chino_sprite_logo_0.jpg" alt="chino_sprite_logo_0.jpg" />" alt="chino<sub>sprite</sub><sub>logo</sub><sub>0.jpg</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-orge786861"&gt;
+&lt;h4 id="orge786861"&gt;&lt;img src="<img src="https://www.meneame.net/backend/media?type=comment&amp;amp;id=21581992&amp;amp;version=0&amp;amp;ts=1492528205&amp;amp;image.jpeg" alt="media?type=comment&amp;amp;id=21581992&amp;amp;version=0&amp;amp;ts=1492528205&amp;amp;image.jpeg" />" alt="media?type=comment&amp;amp;id=21581992&amp;amp;version=0&amp;amp;ts=1492528205&amp;amp;image.jpeg" /&gt;&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Pepsi-BaiShi
+ Burger King HanBaoWang (hamburguesa rey)
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org9db96a9"&gt;
+&lt;h4 id="org9db96a9"&gt;&lt;img src="<img src="http://www.brandemia.org/sites/default/files/inline/images/cocacola_chino_logo.jpg" alt="cocacola_chino_logo.jpg" />" alt="cocacola<sub>chino</sub><sub>logo.jpg</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgf860450"&gt;
+&lt;h4 id="orgf860450"&gt;&lt;img src="<img src="http://www.brandemia.org/sites/default/files/inline/images/logo_nestle_chino.jpg" alt="logo_nestle_chino.jpg" />" alt="logo<sub>nestle</sub><sub>chino.jpg</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgfa33f9f"&gt;
+&lt;h4 id="orgfa33f9f"&gt;&lt;img src="<img src="https://www.nanjingmarketinggroup.com/sites/default/files/image/WeChat/WeChat-logo.jpg" alt="WeChat-logo.jpg" />" alt="WeChat-logo.jpg" /&gt;&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Why Wechat failed to expand internationally ? 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org142086f"&gt;
+&lt;h4 id="org142086f"&gt;&lt;img src="<img src="https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408619947705/rural-chinese-farmer-014.jpg" alt="rural-chinese-farmer-014.jpg" />" alt="rural-chinese-farmer-014.jpg" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgf37ccb3"&gt;
+&lt;h3 id="orgf37ccb3"&gt;Japan&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf37ccb3"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-org1c4cfa2" data-background="<img src="https://cdn.techinasia.com/wp-content/uploads/2014/04/EtsyTIAJPG-720x503.jpg" alt="EtsyTIAJPG-720x503.jpg" />" data-background-transition="slide"&gt;
+&lt;h4 id="org1c4cfa2"&gt;&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Pictures: 
+Japan, 
+Japanese sites
+Kombini
+Sevel eleven 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org6a63486"&gt;
+&lt;h3 id="org6a63486"&gt;Etsy International &amp;amp; Marketplace dynamics&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Supply and demand
+How to monetize that
+0 to 100 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;p&gt;
+But Japan 
+Japan: 3 country in online population, close to 90% internet penetration 
+Browse on desktop and buy on phones
+Kombini
+Customer care
+Allergy to non JP companies 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgd9ab06e"&gt;
+&lt;h3 id="orgd9ab06e"&gt;&lt;img src="<img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/twitter-in-japan.jpg" alt="twitter-in-japan.jpg" />" alt="twitter-in-japan.jpg" /&gt;&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgf68dcc4"&gt;
+&lt;h3 id="orgf68dcc4"&gt;&lt;img src="<img src="https://www.globalme.net/wp-content/uploads/2014/01/tweet1.png" alt="tweet1.png" />" alt="tweet1.png" /&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://www.globalme.net/wp-content/uploads/2014/01/tweet1-eng.png" alt="tweet1-eng.png" />" alt="tweet1-eng.png" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+139 chars
+354 Caracteres: traduccion 
+Twitter es muy popular con recetas
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orga08893c"&gt;
+&lt;h3 id="orga08893c"&gt;&lt;img src="<img src="https://www.globalme.net/wp-content/uploads/2014/01/tweet2.png" alt="tweet2.png" />" alt="tweet2.png" /&gt;&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://www.globalme.net/wp-content/uploads/2014/01/tweet2-eng.png" alt="tweet2-eng.png" />" alt="tweet2-eng.png" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+119 a 284 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org2dce090"&gt;
+&lt;h3 id="org2dce090"&gt;Kombini&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="http://www.payme.jp/images/home/pic_overview_gateway_en.jpg" alt="pic_overview_gateway_en.jpg" />" alt="pic<sub>overview</sub><sub>gateway</sub><sub>en.jpg</sub>" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+what we did 
+ther problems: 
+Softbank 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orge8a3d48"&gt;
+&lt;h3 id="orge8a3d48"&gt;Question: Which innovative ideas would you have to attact a totally different market?&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Etsy Japan 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-orgd0ee2fe"&gt;
+&lt;h2 id="orgd0ee2fe"&gt;Product&lt;/h2&gt;
+&lt;p&gt;
+Things to consider in international
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="slide-org407ea36"&gt;
+&lt;h3 id="org407ea36"&gt;steps to adapt a product beyond our borders&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org407ea36"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-orgbb6cb66"&gt;
+&lt;h4 id="orgbb6cb66"&gt;i18n = g13n + l10n&lt;/h4&gt;
+&lt;p&gt;
+Internationalization = Globalization + Localization 
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+explicar lo de los numeros
+TODO ESTO ES WEB, lo mismo para mobile, y otros dispositivos 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgc50e3fb"&gt;
+&lt;h4 id="orgc50e3fb"&gt;G13N: globalization&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Adaptar un producto a internacional 
+data extraction : _() UNIT OF MEANING
+pluralization : 9 different plurals arabic
+genderification : 3 genders German, 4 Czeck, Polish (Masc animad/inan, fem, neutro), Kannada: 9, Swahilli : 18 
+domain names: puede que no importante ya, dominios que no rulan otros paises (craigslist) 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+</p>
+
+<p>
+&lt;ul class="org-ul"&gt;&lt;li&gt;&lt;a id="orgf86d4d8"&gt;&lt;/a&gt;Encoding&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org95e9bb8"&gt;&lt;/a&gt;Data extraction&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="orgc2b5f70"&gt;&lt;/a&gt;pluralization&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org272d405"&gt;&lt;/a&gt;genderification&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org0d10edc"&gt;&lt;/a&gt;others (domain names)&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="slide-org2638b47"&gt;
+&lt;h4 id="org2638b47"&gt;l10n localizationn&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-org2638b47"&gt;
+&lt;/div&gt;&lt;ul class="org-ul"&gt;&lt;li&gt;&lt;a id="orgd85fd6a"&gt;&lt;/a&gt;community&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org58a763b"&gt;&lt;/a&gt;professional&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgace18ac"&gt;
+&lt;h4 id="orgace18ac"&gt;&lt;img src="<img src="https://ews.github.io/facebook_translations.png" alt="facebook_translations.png" />" alt="facebook<sub>translations.png</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-org85f6593"&gt;
+&lt;h4 id="org85f6593"&gt;&lt;img src="<img src="https://ews.github.io/twitter_translations.png" alt="twitter_translations.png" />" alt="twitter<sub>translations.png</sub>" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgcb3eaca"&gt;
+&lt;h4 id="orgcb3eaca"&gt;regional adaptation&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Un caso concreto: RtL
+Aunque hay muchos, dispositivos con necesidades especiales (soundcloud lower bit rate in south east asia) 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org424501a"&gt;
+&lt;h4 id="org424501a"&gt;changing language&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Icon for language
+Explain do it automatically, then let user select
+never via IP unless we are sure and we offer a way out
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://i.ytimg.com/vi/ptlt0Ba_EaI/maxresdefault.jpg" alt="maxresdefault.jpg" />" alt="maxresdefault.jpg" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgb008852"&gt;
+&lt;h4 id="orgb008852"&gt;&lt;img src="<img src="http://www.languageicon.org/LanguageIcon.jpg" alt="LanguageIcon.jpg" />" alt="LanguageIcon.jpg" /&gt;&lt;/h4&gt;
+&lt;/section&gt;
+&lt;section id="slide-org0a82df0"&gt;
+&lt;h3 id="org0a82df0"&gt;security in i18n&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0a82df0"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-orgc7233ab"&gt;
+&lt;h4 id="orgc7233ab"&gt;unicode homoplyphs for the web&lt;/h4&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Explicar punycode, que es 
+Parar y hacer ejemplo
+Firefox: apple attack (bookmarks) 
+Explicar apple y craigslist mysql attack 
+Y con esto SE PARA DE HABLAR DE PRODUCTO
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org39bd181"&gt;
+&lt;h3 id="org39bd181"&gt;Question: How would you decide which country to expand into first?&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Soundcloud - brazil 
+Letgo - Google ads 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org3bc1813"&gt;
+&lt;h2 id="org3bc1813"&gt;Culture&lt;/h2&gt;
+&lt;p&gt;
+integrating i18n into a running product / startup
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Como lo hacemos si la empresa tiene ya un producto existente que tiene que localizar 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;ul class="org-ul"&gt;&lt;li&gt;&lt;a id="org2e5c8d6"&gt;&lt;/a&gt;international is always seen as a tax&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="orge4a78b4"&gt;&lt;/a&gt;The path of least resistance&lt;br /&gt;&lt;aside class="notes"&gt;
+&lt;p&gt;
+Talk about Etsy, planning was difficult, Soundcloud took few weeks
+At the end, internaitonaliztion
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;&lt;/li&gt;
+&lt;/section&gt;
+&lt;section id="slide-org40072de"&gt;
+&lt;h3 id="org40072de"&gt;start with people, start with a culture&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Like many things, el exito depende de la cultura que tengamos en la empresa 
+Check the particularities of your team
+BAd: Wechat can't go outside china
+Good: SoundCloud Android app 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgffe8f5f"&gt;
+&lt;h3 id="orgffe8f5f"&gt;functions of the intl team:&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgffe8f5f"&gt;
+&lt;/div&gt;&lt;ul class="org-ul"&gt;&lt;li&gt;&lt;a id="orgfbc8a35"&gt;&lt;/a&gt;creating tools / integrating APIs&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="orge52e2b5"&gt;&lt;/a&gt;launching new languages for all features / sections&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="orge1e3659"&gt;&lt;/a&gt;launching a new feature / section for all supported languages&lt;br /&gt;&lt;p&gt;
+legal : 
+&lt;/p&gt;&lt;/li&gt;
+&lt;/section&gt;
+&lt;section id="slide-org7d7f03f"&gt;
+&lt;h4 id="org7d7f03f"&gt;legal framework, potential liabilities&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-org7d7f03f"&gt;
+&lt;/div&gt;&lt;ul class="org-ul"&gt;&lt;li&gt;&lt;a id="org5a1faa6"&gt;&lt;/a&gt;when something won't sound ok, or when major changes are needed&lt;br /&gt;&lt;/li&gt;
+</p>
+
+<p>
+&lt;li&gt;&lt;a id="orgb2e3ee5"&gt;&lt;/a&gt;provide infrastructure to rest of company&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org7fdb11c"&gt;&lt;/a&gt;provide intelligence to the rest of the commpany&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org2b36a01"&gt;&lt;/a&gt;veto power over localization issues&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org29c0c02"&gt;&lt;/a&gt;keep the different languages in sync (if needed)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id="org6c8c088"&gt;&lt;/a&gt;tools to improve communication with users&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="slide-org39b3f7a"&gt;
+&lt;h3 id="org39b3f7a"&gt;Set a plan and KPIs&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org617dce2"&gt;
+&lt;h3 id="org617dce2"&gt;Make a fake translation&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Malkovich
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgcf82bab"&gt;
+&lt;h3 id="orgcf82bab"&gt;Select a country, prove a point&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Understand the country (go there and talk to users)
+Devices, connectivity 
+Slow the connection down at the office if needed 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org9105d1b"&gt;
+&lt;h3 id="org9105d1b"&gt;International is where most of the growth happens&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id="slide-org82ae904"&gt;
+&lt;h3 id="org82ae904"&gt;Growth in developing countries as strategy&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://i.ytimg.com/vi/6WhjwGvXq7c/maxresdefault.jpg" alt="maxresdefault.jpg" />" alt="maxresdefault.jpg" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+wahtsapp 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org9beca6f"&gt;
+&lt;h3 id="org9beca6f"&gt;Growth in developing countries as a need&lt;/h3&gt;
+</p>
+
+<p>
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="<img src="https://ews.github.io/internet.org.png" alt="internet.org.png" />" alt="internet.org.png" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+put pictures here
+when you literally need deeloping countries to growth
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-org0bebc87"&gt;
+&lt;h3 id="org0bebc87"&gt;Which innovative ideas would you have to attact a saturated market?&lt;/h3&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Etsy - Dawanda 
+Empowering local users 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org303927a"&gt;
+&lt;h2 id="org303927a"&gt;some misc stuff&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org303927a"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-orgb69a489"&gt;
+&lt;h3 id="orgb69a489"&gt;compliance and legislation&lt;/h3&gt;
+&lt;p&gt;
+copyright laws and safe harbor
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Common law: Anglosaxon countries: can create jurisprudencia y precedente 
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section id="slide-orgbece96d"&gt;
+&lt;h3 id="orgbece96d"&gt;marketing / i18n&lt;/h3&gt;
+&lt;p&gt;
+Example:  mcdonalds 
+&lt;/p&gt;
+&lt;aside class="notes"&gt;
+&lt;p&gt;
+Icons: UN site
+&lt;/p&gt;
+</p>
+
+<p>
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org48b1b3a"&gt;
+&lt;h2 id="org48b1b3a"&gt;Questions?&lt;/h2&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-orgcf68c29"&gt;
+&lt;h2 id="orgcf68c29"&gt;&lt;img src="<img src="https://ews.github.io/thank_you.png" alt="thank_you.png" />" alt="thank<sub>you.png</sub>" /&gt;&lt;/h2&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id="slide-org2dccc1f"&gt;
+&lt;h2 id="org2dccc1f"&gt;Additional&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2dccc1f"&gt;
+&lt;/div&gt;&lt;/section&gt;
+&lt;section id="slide-org8c5969b"&gt;
+&lt;h3 id="org8c5969b"&gt;McDonalds icons 109 countries (2017) &lt;a href="<a href="http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf">http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf</a>"&gt;<a href="http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf">http://www.enlaso.com/wp-content/uploads/2017/01/McDibaks-Nutrition-Icons-Case-Study.pdf</a>&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;
+comments &lt;a href="<a href="https://news.ycombinator.com/item?id=14477121">https://news.ycombinator.com/item?id=14477121</a>"&gt;<a href="https://news.ycombinator.com/item?id=14477121">https://news.ycombinator.com/item?id=14477121</a>&lt;/a&gt;
+"The point was not to get optimal international recognition. Almost the opposite: every symbol should be inoffensive and connote no negative or inappropriate ideas in 108 countries."
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="slide-orga04cdb7"&gt;
+&lt;h3 id="orga04cdb7"&gt;How to make an internationally successful org&lt;/h3&gt;
+&lt;p&gt;
+Conway's law: (&lt;a href="<a href="https://en.wikipedia.org/wiki/Conway's_law">https://en.wikipedia.org/wiki/Conway's_law</a>"&gt;<a href="https://en.wikipedia.org/wiki/Conway's_law">https://en.wikipedia.org/wiki/Conway's_law</a>&lt;/a&gt;)
+   "organizations which design systems &amp;#x2026; are constrained to produce designs which are copies of the communication structures of these organizations"
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="./reveal.js/lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="./reveal.js/js/reveal.js"&gt;&lt;/script&gt;
+</p>
+
+<p>
+&lt;script&gt;
+<i>/ Full list of configuration options available here:
+/</i> <a href="https://github.com/hakimel/reveal.js#configuration">https://github.com/hakimel/reveal.js#configuration</a>
+Reveal.initialize({
+</p>
+
+<p>
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+</p>
+
+<p>
+theme: Reveal.getQueryHash().theme, <i>/ available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', /</i> default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', <i>/ null if client
+    id: '', /</i> id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+</p>
+
+<p>
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</p>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
