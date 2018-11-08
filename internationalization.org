@@ -135,9 +135,10 @@ Y esa ha sido mi obsesion durante toda la carrera profesional
 ** 
 #+ATTR_HTML: :width 60% :height 60%
 https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e908-a8bb-f2d9a894b2ed/source/1280x1280bb.jpg
+<<<<<<< HEAD
 * Do you have to go international ?
 ** Zappos and Zalando 
- https://ews.github.io/zappos_zalando.png
+https://ews.github.io/zappos_zalando.png
 ** Airbnb and 9 flats 
 ** Is your business dependent on global mechanics? 
 ** countless of local uber clones can survive, not local airbnb clones 
@@ -210,6 +211,9 @@ Hablar de whatsapp y como crecio en africa
 Cuando abres una empresa, tienes que elegir 5 nombres en orden preferencial. En nuestro caso, cuando enviamos la aplicación, los 5 estaban ya registrados....
 #+END_NOTES
 *** https://static.boredpanda.com/blog/wp-content/uuuploads/funny-chinese-sign-translation-fails/funny-chinese-sign-translation-fails-35.jpg 
+=======
+*** https://www.meneame.net/backend/media?type=comment&id=21581797&version=0&ts=1492526679&image.jpeg
+>>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 #+BEGIN_NOTES
 (more joke, say 'it says coffe instead of coffee, horrible)
 #+END_NOTES
@@ -274,10 +278,13 @@ ther problems:
 Softbank 
 
 #+END_NOTES
+<<<<<<< HEAD
 ** Question: Which innovative ideas would you have to attact a totally different market? 
 #+BEGIN_NOTES
 Etsy Japan 
 #+END_NOTES
+=======
+>>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * Product
 Things to consider in international
 ** steps to adapt a product beyond our borders
@@ -330,11 +337,14 @@ Firefox: apple attack (bookmarks)
 Explicar apple y craigslist mysql attack 
 Y con esto SE PARA DE HABLAR DE PRODUCTO
 #+END_NOTES
+<<<<<<< HEAD
 ** Question: How would you decide which country to expand into first? 
 #+BEGIN_NOTES
 Soundcloud - brazil 
 Letgo - Google ads 
 #+END_NOTES
+=======
+>>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * Culture
 integrating i18n into a running product / startup
 #+BEGIN_NOTES
@@ -389,11 +399,15 @@ https://ews.github.io/internet.org.png
 put pictures here
 when you literally need deeloping countries to growth
 #+END_NOTES
+<<<<<<< HEAD
 ** Which innovative ideas would you have to attact a saturated market? 
 #+BEGIN_NOTES
 Etsy - Dawanda 
 Empowering local users 
 #+END_NOTES
+=======
+
+>>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * some misc stuff 
 ** compliance and legislation 
 copyright laws and safe harbor
