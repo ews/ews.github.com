@@ -1,4 +1,4 @@
-#+REVEAL_ROOT: ./reveal.js  
+#+REVEAL_ROOT: ./  
 #+OPTIONS: reveal_title_slide:nil
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil
@@ -144,6 +144,10 @@ https://ews.github.io/zappos_zalando.png
 https://ews.github.io/contextual-translation.png
 https://ews.github.io/context.png
 https://ews.github.io/phrase-tool.png
+#+BEGIN_NOTES
+numbers: 
+http://www.oneskyapp.com/blog/airbnb-global-growth/
+#+END_NOTES
 ** Is your business dependent on global mechanics? 
 ** countless of local uber clones can survive, not local airbnb clones 
 #+BEGIN_NOTES
