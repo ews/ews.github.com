@@ -78,6 +78,24 @@ Hablar de la empresa esa alemana que queria ir a SV
 Y es una empresa que sabe hablar a los usuarios en su propio idioma 
 
 #+END_NOTES
+* Do you have to go international ?
+** Zappos and Zalando 
+https://ews.github.io/zappos_zalando.png
+** Airbnb and 9 flats 
+https://ews.github.io/airbnb_9flats.png
+** Airbnb i18n in the inside 
+https://ews.github.io/contextual-translation-tool.png
+#+BEGIN_NOTES
+
+https://ews.github.io/context.png
+https://ews.github.io/phrase-tool.png
+numbers: 
+http://www.oneskyapp.com/blog/airbnb-global-growth/
+
+*Is your business dependent on global mechanics? 
+ countless of local uber clones can survive, not local airbnb clones 
+airbnb clones compete on vertical (airbnb for rich people, airbnb for markerspaces) 
+#+END_NOTES
 * Nothing defines us as much as the language we speak 
 ** https://ews.github.io/superman_arabic_1.png
 ** https://ews.github.io/superman_arabic_2.png
@@ -135,23 +153,6 @@ Y esa ha sido mi obsesion durante toda la carrera profesional
 ** 
 #+ATTR_HTML: :width 60% :height 60%
 https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e908-a8bb-f2d9a894b2ed/source/1280x1280bb.jpg
-<<<<<<< HEAD
-* Do you have to go international ?
-** Zappos and Zalando 
-https://ews.github.io/zappos_zalando.png
-** Airbnb and 9 flats 
-** Airbnb i18n in the inside 
-https://ews.github.io/contextual-translation-tool.png
-https://ews.github.io/context.png
-https://ews.github.io/phrase-tool.png
-#+BEGIN_NOTES
-numbers: 
-http://www.oneskyapp.com/blog/airbnb-global-growth/
-
-*Is your business dependent on global mechanics? 
- countless of local uber clones can survive, not local airbnb clones 
-airbnb clones compete on vertical (airbnb for rich people, airbnb for markerspaces) 
-#+END_NOTES
 * Regions 
 #+BEGIN_NOTES
 Potential for leapgroffing ?
@@ -180,7 +181,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.
 *** Internet penetration 
 https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png
 *** English Fluency Index 
-https://preview.redd.it/4q54xuk99jcy.png?width=960&crop=smart&auto=webp&s=4d0de5a866c6d94e0b4adb997f85720767bc1fc1
+https://ews.github.io/world_map_fluency.png
 #+BEGIN_NOTES
 https://en.wikipedia.org/wiki/EF_English_Proficiency_Index
 
@@ -223,7 +224,6 @@ Cuando abres una empresa, tienes que elegir 5 nombres en orden preferencial. En 
 *** https://static.boredpanda.com/blog/wp-content/uuuploads/funny-chinese-sign-translation-fails/funny-chinese-sign-translation-fails-35.jpg 
 =======
 *** https://www.meneame.net/backend/media?type=comment&id=21581797&version=0&ts=1492526679&image.jpeg
->>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 #+BEGIN_NOTES
 (more joke, say 'it says coffe instead of coffee, horrible)
 #+END_NOTES
@@ -288,13 +288,10 @@ ther problems:
 Softbank 
 
 #+END_NOTES
-<<<<<<< HEAD
 ** Question: Which innovative ideas would you have to attact a totally different market? 
 #+BEGIN_NOTES
 Etsy Japan 
 #+END_NOTES
-=======
->>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * Product
 Things to consider in international
 ** steps to adapt a product beyond our borders
@@ -347,14 +344,11 @@ Firefox: apple attack (bookmarks)
 Explicar apple y craigslist mysql attack 
 Y con esto SE PARA DE HABLAR DE PRODUCTO
 #+END_NOTES
-<<<<<<< HEAD
 ** Question: How would you decide which country to expand into first? 
 #+BEGIN_NOTES
 Soundcloud - brazil 
 Letgo - Google ads 
 #+END_NOTES
-=======
->>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * Culture
 integrating i18n into a running product / startup
 #+BEGIN_NOTES
@@ -409,15 +403,12 @@ https://ews.github.io/internet.org.png
 put pictures here
 when you literally need deeloping countries to growth
 #+END_NOTES
-<<<<<<< HEAD
 ** Which innovative ideas would you have to attact a saturated market? 
 #+BEGIN_NOTES
 Etsy - Dawanda 
 Empowering local users 
 #+END_NOTES
-=======
 
->>>>>>> f003c82cab168342e6213af243b410f41ce3eb2f
 * some misc stuff 
 ** compliance and legislation 
 copyright laws and safe harbor
