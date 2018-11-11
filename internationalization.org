@@ -91,7 +91,7 @@ https://ews.github.io/wikipedia_hebrew.png
 https://ews.github.io/wikipedia_italian.png
 
 ** https://ews.github.io/leah_boroditsky.png
-** https://img.clipartfest.com/43919bb17d987552fcaffe17e89c90d8_clip-art-girl-and-boy-boy-girl-clipart_2400-1902.png
+** https://openclipart.org/download/233385/girlc.svg
   #+BEGIN_NOTES
 Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
 no tanto por el vocabulario, sino por las estructuras mentales que requerimos
@@ -141,16 +141,15 @@ https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a8/a5/66/a8a56692-3f9c-e90
 https://ews.github.io/zappos_zalando.png
 ** Airbnb and 9 flats 
 ** Airbnb i18n in the inside 
-https://ews.github.io/contextual-translation.png
+https://ews.github.io/contextual-translation-tool.png
 https://ews.github.io/context.png
 https://ews.github.io/phrase-tool.png
 #+BEGIN_NOTES
 numbers: 
 http://www.oneskyapp.com/blog/airbnb-global-growth/
-#+END_NOTES
-** Is your business dependent on global mechanics? 
-** countless of local uber clones can survive, not local airbnb clones 
-#+BEGIN_NOTES
+
+*Is your business dependent on global mechanics? 
+ countless of local uber clones can survive, not local airbnb clones 
 airbnb clones compete on vertical (airbnb for rich people, airbnb for markerspaces) 
 #+END_NOTES
 * Regions 
@@ -160,6 +159,9 @@ also in Europe (wechat -> token?)
 #+END_NOTES
 ** Two philosophies 
 Going deep, going wide 
+#+BEGIN_NOTES
+the same strategy that when we were thinking whether to go international or not 
+#+END_NOTES
 ** Starting with a region to prove a point 
 SoundCloud Example: Brazil 
  #+BEGIN_NOTES
@@ -178,7 +180,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/InternetUsersWorldMap.
 *** Internet penetration 
 https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/InternetPenetrationWorldMap.svg/1280px-InternetPenetrationWorldMap.svg.png
 *** English Fluency Index 
-https://upload.wikimedia.org/wikipedia/commons/8/8c/EF_EPI_2016_World_map.jpg
+https://preview.redd.it/4q54xuk99jcy.png?width=960&crop=smart&auto=webp&s=4d0de5a866c6d94e0b4adb997f85720767bc1fc1
 #+BEGIN_NOTES
 https://en.wikipedia.org/wiki/EF_English_Proficiency_Index
 
