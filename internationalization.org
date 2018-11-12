@@ -60,11 +60,15 @@ Lamoda: Russia and Kazhagstan
 India 
 #+END_NOTES
 ** Etsy Clones 
-** https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXeDvHT0GVMteGsSKefEwSXDfzMzzOeGisabye8_o5iXrO4GomcQ
+** https://eticaretmag.com/wp-content/uploads/2012/08/eleseri-e1345726809532.png
+** https://ews.github.io/eleseri_closes.png
 ** https://ews.github.io/dawanda.png
 #+BEGIN_NOTES
 Dawanda ended up being acquired by Etsy, if you go to dawanda.com now it will redirect 
 #+END_NOTES
+
+
+** https://raw.githubusercontent.com/ews/ews.github.com/master/dawanda_closes.png
 
 ** https://res.cloudinary.com/crunchbase-production/image/upload/v1397185281/6ed922a67827b87a6d18cc7d4ec7f4b9.png
 #+BEGIN_NOTES
