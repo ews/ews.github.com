@@ -38,6 +38,10 @@ Esto no es innovacion, esto es ejecucion
 
 #+BEGIN_NOTES
 intro: Internet came with a promise 
+but it's not true
+big getting bigger: if you want to be successful, you need to move
+but also culture and efforts are still centralized, it takes forever to go international 
+and there is somebody profitting from that 
 #+END_NOTES
 ** http://techcabal.com/wp-content/uploads/2015/03/rocket-internet-in-Pakistan.jpg
 ** http://tech.eu/wp-content/uploads/2014/05/www.kinnevik.se-Global-Kinnevik-Rocket-CMD-2014-Rocket-Internet_Kinnevik-Rocket-CMD-2014.pdf-1.png
@@ -56,8 +60,12 @@ Lamoda: Russia and Kazhagstan
 India 
 #+END_NOTES
 ** Etsy Clones 
+** https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXeDvHT0GVMteGsSKefEwSXDfzMzzOeGisabye8_o5iXrO4GomcQ
 ** https://ews.github.io/dawanda.png
-** http://webrazzi.com/wp-content/uploads/2012/04/eleseri.jpg 
+#+BEGIN_NOTES
+Dawanda ended up being acquired by Etsy, if you go to dawanda.com now it will redirect 
+#+END_NOTES
+
 ** https://res.cloudinary.com/crunchbase-production/image/upload/v1397185281/6ed922a67827b87a6d18cc7d4ec7f4b9.png
 #+BEGIN_NOTES
 They focus on particular companies for particular markets (zappos clone in Germany, not in the UK or new zealand) 
@@ -82,7 +90,7 @@ Y es una empresa que sabe hablar a los usuarios en su propio idioma
 ** Zappos and Zalando 
 https://ews.github.io/zappos_zalando.png
 ** Airbnb and 9 flats 
-https://ews.github.io/airbnb_9flats.png
+https://raw.githubusercontent.com/ews/ews.github.com/master/airbnb_9flats.png
 ** Airbnb i18n in the inside 
 https://ews.github.io/contextual-translation-tool.png
 #+BEGIN_NOTES
