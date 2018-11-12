@@ -95,8 +95,11 @@ Y es una empresa que sabe hablar a los usuarios en su propio idioma
 https://ews.github.io/zappos_zalando.png
 ** Airbnb and 9 flats 
 https://raw.githubusercontent.com/ews/ews.github.com/master/airbnb_9flats.png
+** https://raw.githubusercontent.com/ews/ews.github.com/master/wimdu.png
 ** Airbnb i18n in the inside 
 https://ews.github.io/contextual-translation-tool.png
+** https://ews.github.io/context.png
+** https://ews.github.io/phrase-tool.png
 #+BEGIN_NOTES
 
 https://ews.github.io/context.png
@@ -107,6 +110,12 @@ http://www.oneskyapp.com/blog/airbnb-global-growth/
 *Is your business dependent on global mechanics? 
  countless of local uber clones can survive, not local airbnb clones 
 airbnb clones compete on vertical (airbnb for rich people, airbnb for markerspaces) 
+#+END_NOTES
+** https://raw.githubusercontent.com/ews/ews.github.com/master/novasol_wimdu.png
+** https://raw.githubusercontent.com/ews/ews.github.com/master/wimdu_closes.png
+#+BEGIN_NOTES
+Rocket successes is about understanding the user, so when we sell it, the new owners usually fail
+so do we believe we can understand our users point of view 
 #+END_NOTES
 * Nothing defines us as much as the language we speak 
 ** https://ews.github.io/superman_arabic_1.png
@@ -121,7 +130,8 @@ https://ews.github.io/wikipedia_hebrew.png
 https://ews.github.io/wikipedia_italian.png
 
 ** https://ews.github.io/leah_boroditsky.png
-** https://openclipart.org/download/233385/girlc.svg
+
+** https://raw.githubusercontent.com/ews/ews.github.com/master/boy_girl.png
   #+BEGIN_NOTES
 Para los que hablamso mas de un idioma: sabemos que hay los idiomas no son un mapa 1:1 de otros, cosas que no se pueden explicar claramente en otro idioma
 no tanto por el vocabulario, sino por las estructuras mentales que requerimos
